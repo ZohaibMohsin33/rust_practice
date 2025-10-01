@@ -4,6 +4,7 @@ mod inner;
 mod working_strs;
 mod working_with_enums;
 mod working_vecs;
+mod hashmapy;
 
 use rand::Rng;
 use std::cmp::Ordering;
@@ -105,7 +106,9 @@ fn main() {
     // inner::inner();
     // working_strs::work();
     // working_with_enums::enums_working();
-      working_vecs::work_vectors();
+    // working_vecs::work_vectors();
+    hashmapy::hasmap();
+
 
 
     
